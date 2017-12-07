@@ -6,9 +6,10 @@ php代码使用[php-protobuf](https://github.com/allegro/php-protobuf)编译自�
 
 该proto文件语法为proto2，不适用于google官方的[proto](https://github.com/google/protobuf/tree/master/php)编译工具,原因可参见此[issue](https://github.com/google/protobuf/issues/3513#issuecomment-323149773)
 
-## 用法示例
+## 用法示例（
 
 ```
+//以下仅为简单示例，实际对接可能需要很多额外的代码，因为Api的请求中有很多参数为reuqired
 require_once("Request.php");
 require_once("Request_App.php');
 require_once("Response.php');
