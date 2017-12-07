@@ -4,6 +4,8 @@
 ## 说明
 php代码使用[php-protobuf](https://github.com/allegro/php-protobuf)编译自阿里妈妈的tanx-ssp.proto文件
 
+文件仅供参考，安全起见，在实际使用中建议自己根据proto文件使用上面提到的工具重新编译一套新的代码出来
+
 该proto文件语法为proto2，不适用于google官方的[proto](https://github.com/google/protobuf/tree/master/php)编译工具,原因可参见此[issue](https://github.com/google/protobuf/issues/3513#issuecomment-323149773)
 
 ## 用法示例（
